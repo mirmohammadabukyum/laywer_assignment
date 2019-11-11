@@ -255,7 +255,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', e
 
 }
 
-@media (min-width:359px){
+@media (max-width:359px){
 	.container{
 		max-width: 920px;
 		margin:0 auto;
