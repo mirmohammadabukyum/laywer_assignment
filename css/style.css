@@ -9,6 +9,9 @@
 	-webkit-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 }
+p{
+	text-align: justify;
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -498,6 +501,13 @@ header{
 		font-size: 35px;
 	}
 }
+.heading span {
+    margin: 0 auto;
+}
+.link-more {
+    margin: 0 auto;
+    display: block;
+}
 @media (max-width: 600px){
 	.container{
 		width: 100%;
@@ -507,8 +517,50 @@ header{
 		display: none;
 	}
 	.banner-content h1{
-		font-size: 25px;
+		font-size: 16px;
 	}
+	.heading h1 {
+    font-size: 18px;
+}
+.banner-orange {
+    width: 50%;
+}
+.link-more {
+    margin: 0 auto;
+    display: block;
+text-align: center;
+}
+.language-section {
+    padding: 0;
+}
+.whatwedo-section {
+    background-size: 83%;
+}
+.whatwedo-section {
+    padding: 25px 0 40px;
+}
+.attorneys-section {
+	padding: 30px 0;
+}
+.attorneys-section .row{
+	justify-content: center;
+}
+.attorneys-heading {
+	flex-basis: 56%;
+	max-width: 56%;
+	padding: 0;
+	margin: 0;
+}
+.attorneys-heading .heading h1 {
+    text-align: center;}
+.languages {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.whoweare-section {
+	margin: 0;
+}
 	.whoweare-content{
 	max-width: 100%;
 	flex-basis: 100%;
@@ -526,6 +578,18 @@ header{
 }
 .whoweare-section {
     padding: 50px 0 50px;
+}
+.contact input[type="submit"] {
+ padding: 5px;
+}
+.footer-bottom {
+padding: 0; 
+}
+.copyright p {
+    font-size: 15px;
+}
+footer {
+    padding-top: 50px;
 }
 }
 
